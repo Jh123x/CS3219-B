@@ -10,7 +10,7 @@ def handle_put(request, id):
     try:
         item = TodoItems.objects.filter(id=id).get()
     except TodoItems.DoesNotExist:
-        return HttpResponseNotFound("Item does not exist")
+        return wrap_response(json.dumps(get_result_json(False)))
     item.is_completed = True
     item.save()
 
