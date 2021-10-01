@@ -6,6 +6,9 @@ Wen Junhua
 # Student Number
 A0196683L
 
+# Github Link
+https://github.com/Jh123x/CS3219-B
+
 # Quick start guide
 1. Install the requirements `pip install -r requirements.txt`
 2. Change directory to webapp using `cd webapp`
