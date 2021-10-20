@@ -55,6 +55,9 @@ https://github.com/Jh123x/CS3219-B
 3. Start the development server using `npm start`
 4. The frontend should be running at [`localhost:3000`](http://localhost:3000)
 
+## Styling
+Styling is done using [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+
 ## Walk through
 After going to localhost you should see something like this
 ![Main page](images/fe-main.png)
@@ -71,3 +74,4 @@ When the delete button is pressed, it sends a `delete` request to the endpoint.
 ## Tech Stack
 1. React
 2. Axios
+3. Bootstrap
