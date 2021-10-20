@@ -24,7 +24,7 @@ def update_todo(request, id):
     methods = {
         "DELETE": handle_delete,
         "PUT": handle_put,
-        "Default": lambda x: HttpResponseNotAllowed("Method not allowed")
+        "Default": lambda *x: HttpResponseNotAllowed("Method not allowed")
     }
 
     return methods.get(request.method, methods['Default'])(request, id)

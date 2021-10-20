@@ -11,7 +11,7 @@ def handle_put(request, id):
         item = TodoItems.objects.filter(id=id).get()
     except TodoItems.DoesNotExist:
         return wrap_response(json.dumps(get_result_json(False)))
-    item.is_completed = True
+    item.is_completed = not item.is_completed
     item.save()
 
     return wrap_response(json.dumps(get_result_json(item.is_completed)))
