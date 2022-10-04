@@ -1,11 +1,5 @@
 # CS3219-B4
 
-# Student Name
-Wen Junhua
-
-# Student Number
-A0196683L
-
 # Github Link
 https://github.com/Jh123x/CS3219-B
 
